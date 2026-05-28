@@ -1,4 +1,4 @@
-# Personal Growth Journey Dashboard
+# HeinKo's Learning Journey Reflection Dashboard
 
 This Streamlit dashboard uses anonymized personal-growth data to explore learning, effort, confidence, stress, outcomes, and turning points.
 
