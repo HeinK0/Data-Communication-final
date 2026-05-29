@@ -920,7 +920,7 @@ st.markdown(
     f"""
 **Decision question:** Based on my data, what should I do differently in the future?
 
-**Answer:**Looking at my data, I was able to better understand my personal growth and track how my priorities have evolved over time.
+Looking at my data, I was able to better understand my personal growth and track how my priorities have evolved over time.
 It encouraged me to focus more on volunteering and on maintaining high-quality outputs in my work. 
 I also recognized that I have continued to grow along my chosen career path through my studies and work experiences. 
 At the same time, I noticed that I have not gained many entirely new skills compared to previous years, instead, most of my growth has come from deepening and improving the skills I already possess.
