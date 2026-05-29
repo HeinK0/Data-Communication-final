@@ -11,7 +11,6 @@ import streamlit as st
 # --------------------------------------------------
 st.set_page_config(
     page_title="Hein Ko's Learning Journey Reflection Dashboard",
-    page_icon="📊",
     layout="wide",
 )
 
@@ -492,7 +491,7 @@ st.sidebar.caption("Public-facing labels are anonymized for safer sharing.")
 # Header
 # --------------------------------------------------
 st.title("📊 From Self-Learning to Data Practice")
-st.markdown("### A personal growth journey dashboard")
+st.markdown("### Data and Communication Final Assignment Dashboard")
 
 st.markdown(
     """
@@ -921,25 +920,9 @@ st.markdown(
     f"""
 **Decision question:** Based on my data, what should I do differently in the future?
 
-**Answer:** I should continue investing in data, research, and dashboard-related skills, but I should manage
-high-pressure periods more carefully.
-
-The selected data suggests that **{high_stress_area}** is linked with higher stress, while **{high_growth_area}**
-is linked with stronger skill growth. This means my future plan should focus on better planning, clearer priorities,
-and enough time for review — not just doing more tasks.
+**Answer:**Looking at my data, I was able to better understand my personal growth and track how my priorities have evolved over time.
+It encouraged me to focus more on volunteering and on maintaining high-quality outputs in my work. 
+I also recognized that I have continued to grow along my chosen career path through my studies and work experiences. 
+At the same time, I noticed that I have not gained many entirely new skills compared to previous years, instead, most of my growth has come from deepening and improving the skills I already possess.
 """
 )
-
-st.markdown(
-    """
-**Future actions supported by the data:**
-
-1. Start technical and analytical tasks earlier.
-2. Keep investing in high-growth skills.
-3. Use visualizations to support decisions, not just to present information.
-4. Be careful not to overclaim because the scores are self-reported.
-"""
-)
-
-st.markdown("---")
-st.caption("Dashboard prepared with anonymized personal-growth data for decision-making and reflection.")
