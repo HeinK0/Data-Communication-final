@@ -393,6 +393,24 @@ def finding_card(title, text):
         unsafe_allow_html=True,
     )
 
+def correlation_text(corr_value):
+    if pd.isna(corr_value):
+        return "Not enough data to estimate the relationship."
+
+    strength = abs(corr_value)
+    direction = "positive" if corr_value >= 0 else "negative"
+
+    if strength < 0.20:
+        level = "very weak"
+    elif strength < 0.40:
+        level = "weak"
+    elif strength < 0.60:
+        level = "moderate"
+    else:
+        level = "strong"
+
+    return f"The relationship is {level} and {direction}. This is an association, not proof of causation."
+
 
 def build_trend_data(data: pd.DataFrame, view: str, score_columns: list[str]) -> pd.DataFrame:
     temp = data.copy()
