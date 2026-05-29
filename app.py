@@ -490,7 +490,7 @@ st.sidebar.caption("Public-facing labels are anonymized for safer sharing.")
 # --------------------------------------------------
 # Header
 # --------------------------------------------------
-st.title("📊 From Self-Learning to Data Practice")
+st.title("Hein Ko's Learning Journey Reflection Dashboard")
 st.markdown("### Data and Communication Final Assignment Dashboard")
 
 st.markdown(
